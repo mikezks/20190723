@@ -28,6 +28,9 @@ export class DashboardPageComponent {
 
 		const content = document.getElementById('content');
 
+		const ce = document.createElement(elementName);
+		content.appendChild(ce);
+
 		// TODO: Dynamically add a dashboard-tile element to the content
 		//				 + set data's values to the attributes a, b, and c.
 		// HINT: use document.createElement, setAttribute, and appendChild
